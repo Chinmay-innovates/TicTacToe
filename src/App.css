@@ -1,0 +1,33 @@
+.main__div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.water__background{
+  background-color: #4b495f;
+}
+.game__heading{
+  padding: 4px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+.square__wrapper{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+row-gap: 10px;
+column-gap: 10px;
+}
+.move__detect{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.left,.right{
+  height: 80px;
+  width: 120px;
+background: #000;
+gap: 20vw;
+}
